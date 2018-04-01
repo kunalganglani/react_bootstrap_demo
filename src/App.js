@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Well, Alert } from 'react-bootstrap';
-
+import AlertDismissable from './AlertDismissable'
 
 class App extends Component {
   render() {
@@ -19,7 +19,9 @@ class App extends Component {
         <Alert bsStyle="warning">
           <strong>Holy guacamole!</strong> Best check yo self, you're not looking too
           good.
-        </Alert>;
+        </Alert>
+        <AlertDismissable/>
+
       </div>
     );
   }
