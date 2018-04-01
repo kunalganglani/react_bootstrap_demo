@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Well, Alert } from 'react-bootstrap';
-import AlertDismissable from './AlertDismissable'
+import AlertDismissable from './AlertDismissable';
+import AlertTry from './AlertTry';
 
 class App extends Component {
   render() {
@@ -21,7 +22,7 @@ class App extends Component {
           good.
         </Alert>
         <AlertDismissable/>
-
+        <AlertTry/>
       </div>
     );
   }
